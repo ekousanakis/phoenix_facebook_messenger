@@ -37,8 +37,8 @@ defmodule FacebookMessenger.Phoenix.Mixfile do
   defp deps do
     d =
     [{:phoenix, "~> 1.1"},
-     {:facebook_messenger, "~> 0.4.0"},
-     {:inch_ex, only: :docs},
+    {:facebook_messenger, git: "https://github.com/arjan/facebook_messenger.git"},
+    {:inch_ex, only: :docs},
      {:ex_doc, "~> 0.7", only: :dev},
      {:earmark, "~> 0.1", only: :docs}]
 
